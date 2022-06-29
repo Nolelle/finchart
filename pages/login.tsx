@@ -1,4 +1,6 @@
 import type { NextPage } from 'next'
+import Link from 'next/link'
+
 
 const Login: NextPage = () => {
   return (
@@ -10,7 +12,9 @@ const Login: NextPage = () => {
           <label><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required/>
           <button type="submit">Login</button>
+          <Link href="/">
            <button type="button">Cancel</button>
+        </Link>
       </form> 
     </div>
   )
