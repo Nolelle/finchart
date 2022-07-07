@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 
-
 const Login: NextPage = () => {
   return (
     <div>
@@ -15,6 +14,7 @@ const Login: NextPage = () => {
           <Link href="/">
            <button type="button">Cancel</button>
         </Link>
+        
       </form> 
     </div>
   )
