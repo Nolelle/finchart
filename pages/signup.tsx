@@ -25,8 +25,10 @@ const Signup: NextPage = () => {
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
     <div>
-      <button type="button">Cancel</button>
       <button type="submit">Sign Up</button>
+      <Link href="/">
+      <button type="button">Cancel</button>
+      </Link>
     </div>
   </div>
 </form>  
