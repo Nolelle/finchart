@@ -3,7 +3,7 @@ import type { NextPage } from "next"
 const Border: NextPage = () => {
   return(
     <div>
-      <h1>FinChart</h1>
+      <div>FinChart</div>
       <input type="text" placeholder="Search for a name, ticker or function"/>
       <button>Login</button>
       <button>Todays Markets</button>
