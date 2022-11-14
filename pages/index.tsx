@@ -5,13 +5,13 @@ import Link from 'next/link';
 
 const Home: NextPage = () => {
   return (
-    <div className = "homepage">
-        <div className = "navbar">
+    <div className = "mt-10">
+        <div className = "flex flex-row justify-between ">
       <Head>
         <title>FinChart</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className = "features">
+      <div className = "flex flex-row justify-between gap-10 ml-10 font-sans">
         <div>FinChart</div>
       <div>
         <Link href="/product" passHref>
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         </Link>
       </div>
       <div>
-        <Link href="/Pricing" passHref>
+        <Link href="/pricing" passHref>
           <div>Pricing</div>
         </Link>
       </div>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         </Link>
       </div>
     </div>
-      <div className = "login">
+      <div className = "flex flex-row justify-between gap-10 mr-20 font-sans ">
         <Link href="/signup" passHref>
           <div>Sign Up</div>
         </Link>
@@ -43,9 +43,9 @@ const Home: NextPage = () => {
         </Link>
       </div>
       </div>
-      <div className = "body">
+      <div className = "flex flex-col justify-center mt-40 text-center">
         <h2>The only investment analytics platform you need!</h2>
-        <Link href= "/dashboards/dashboard" passHref>
+        <Link href= "/dashboard" passHref>
         <button>Get started!</button>
         </Link>
       </div>
